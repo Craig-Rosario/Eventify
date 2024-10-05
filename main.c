@@ -106,6 +106,7 @@ void display_event_queue(){
     
     while(temp!=NULL){
         printf("ID is :%d and name is: %s", temp->data_id, temp->name);
+        printf("\n");
         temp=temp->next;
     }
 }
